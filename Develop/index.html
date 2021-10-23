@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" 
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -30,9 +34,55 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="row">
+        <div class="col" id="columnTime">9am</div>
+        <div class="col-10" id="9-amTask"></div>
+        <button class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></button>
+      </div>
+      <div class="row">
+        <div class="col" id="columnTime">10am</div>
+        <div class="col-10" id="10-amTask"></div>
+        <div class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></div>
+      </div>
+      <div class="row">
+        <div class="col" id="columnTime">11am</div>
+        <div class="col-10" id="11-amTask"></div>
+        <div class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></div>
+      </div>
+      <div class="row">
+        <div class="col" id="columnTime">12pm</div>
+        <div class="col-10" id="12-amTask"></div>
+        <div class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></div>
+      </div>
+      <div class="row">
+        <div class="col" id="columnTime">1pm</div>
+        <div class="col-10" id="13-amTask"></div>
+        <div class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></div>
+      </div>
+      <div class="row">
+        <div class="col" id="columnTime">2pm</div>
+        <div class="col-10" id="14-amTask"></div>
+        <div class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></div>
+      </div>
+      <div class="row">
+        <div class="col" id="columnTime">3pm</div>
+        <div class="col-10" id="15-amTask"></div>
+        <div class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></div>
+      </div>
+      <div class="row">
+        <div class="col" id="columnTime">4pm</div>
+        <div class="col-10" id="16-amTask"></div>
+        <div class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></div>
+      </div>
+      <div class="row">
+        <div class="col" id="columnTime">5pm</div>
+        <div class="col-10" id="17-amTask"></div>
+        <div class="col saveBtn" id="columnSave"><span class="oi oi-file"></span></div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
