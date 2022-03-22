@@ -1,4 +1,4 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler
 
 A daily planner that lets you add events to allow one to manage time effectively.
 
